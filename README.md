@@ -24,23 +24,24 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |NU oiss website. How to apply for ssn | Official| https://www.northwestern.edu/international/resources/social-security/how-to-apply-for-an-ssn.html|
+| 2 |NU OISS: Tax filing resources & Sprintax guide | Official| https://www.northwestern.edu/international/resources/taxes/oiss-tax-resources.html |
+| 3 |NU OISS: CPT for F-1 students | Official | https://www.northwestern.edu/international/international-students/student-employment/cpt-for-f1-students.html|
+| 4 | NU OISS: OPT for F-1 students| Official |https://www.northwestern.edu/international/international-students/student-employment/opt-f1-students/ |
+| 5 |NU OISS: Tax FAQ page | Official| https://www.northwestern.edu/international/resources/taxes/tax-faqs.html|
+| 6 |Sprintax blog: Form 8843 explainer | 3rd party|https://blog.sprintax.com/tax-form-8843-filing-instructions/ |
+| 7 |Wise blog: Opening a US bank account as a non-resident | 3rd party | https://wise.com/us/blog/chase-open-account-non-resident|
+| 8 | r/f1visa - Tax Question Megathread 2025 Tax| Community|https://www.reddit.com/r/f1visa/comments/1qvvadf/tax_question_megathread_2025_tax_submissions/|
+| 9 |r/f1visa - SSN Threads |Community |https://www.reddit.com/r/f1visa/ |
+| 10 | NU Off-Campus: Public train/bus transportation | Official | https://www.northwestern.edu/offcampus/resources/getting-around/public-trainbus-transportation.html |
+| 11 | NU OISS: While on OPT | Official | https://www.northwestern.edu/international/international-students/student-employment/while-on-opt-stem-opt1/while-on-opt.html |
 
 ---
 
 ## Chunking Strategy
 
 <!-- Describe your chunking approach with enough specificity that someone else could reproduce it.
-     Include:
+     Include:Official
      - Chunk size (characters or tokens) and why that size fits your documents
      - Overlap size and why (or why not) you used overlap
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)

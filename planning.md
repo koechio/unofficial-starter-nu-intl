@@ -8,8 +8,13 @@
 ---
 
 ## Domain
+The domain I chose is practical life navigation for international students at Northwestern University —specifically SSN applications, federal tax filing as an F-1/J-1 student, work authorization (CPT/OPT), and opening a US bank account without an established credit history or SSN.These are Some of the topics that most international have questions about
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+Accessing this knowledge is frustrating in practice: it takes multiple Google searches just to land on the right page, and once you're there, the answer to your specific question is buried several paragraphs down. The information is also scattered across the OISS website, IRS publications, Sprintax guides, and community forums. Having to do all this just for a simple question is really annoying
+
+My goal was to simulate a very knowledgeable international friend, someone who has already been through the process and can give you a direct answer to your specific question, explain how different pieces connect, and point you to the right official resource if you need more
+detail.
+c
 
 ---
 
@@ -18,18 +23,19 @@
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
 
-| # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| # | Source | Type | Description | URL | Local File |
+|---|--------|------|-------------|-----|------------|
+| 1 | NU OISS: How to apply for SSN | Official | Step-by-step guide for F-1 students on obtaining a Social Security Number | https://www.northwestern.edu/international/resources/social-security/how-to-apply-for-an-ssn.html | docs/nu_oiss_ssn_guide.pdf |
+| 2 | NU OISS: Tax filing resources & Sprintax guide | Official | Overview of tax obligations and Sprintax software instructions for international students | https://www.northwestern.edu/international/resources/taxes/oiss-tax-resources.html | docs/nu_oiss_tax_resources.pdf |
+| 3 | NU OISS: CPT for F-1 students | Official | Curricular Practical Training eligibility, application process, and employer requirements | https://www.northwestern.edu/international/international-students/student-employment/cpt-for-f1-students.html | docs/nu_oiss_cpt_guide.pdf |
+| 4 | NU OISS: OPT for F-1 students | Official | Optional Practical Training application timeline, STEM extension, and reporting requirements | https://www.northwestern.edu/international/international-students/student-employment/opt-f1-students/ | docs/nu_oiss_opt_guide.pdf |
+| 5 | NU OISS: Tax FAQ page | Official | Frequently asked questions on tax residency status, treaties, and filing deadlines | https://www.northwestern.edu/international/resources/taxes/tax-faqs.html | docs/nu_oiss_tax_faq.pdf |
+| 6 | Sprintax blog: Form 8843 explainer | 3rd party | Instructions for completing Form 8843 (exempt individual statement for nonresident aliens) | https://blog.sprintax.com/tax-form-8843-filing-instructions/ | docs/sprintax_form8843.pdf |
+| 7 | Wise blog: Opening a US bank account as a non-resident | 3rd party | Guide on opening a Chase bank account without a SSN, covering required documents and alternatives | https://wise.com/us/blog/chase-open-account-non-resident | docs/wise_bank_account_guide.pdf |
+| 8 | r/f1visa — Tax Question Megathread 2025 | Community | Crowdsourced Q&A on 2025 tax filing, treaty benefits, and Sprintax tips from F-1 students | https://www.reddit.com/r/f1visa/comments/1qvvadf/tax_question_megathread_2025_tax_submissions/ | docs/reddit_f1_visa_tax.pdf |
+| 9 | r/f1visa — SSN Threads | Community | Reddit threads discussing SSN application experiences, denials, and workarounds for F-1 students | https://www.reddit.com/r/f1visa/ | docs/reddit_f1_visa_ssn.pdf |
+| 10 | NU Off-Campus: Public train/bus transportation | Official | Guide to CTA, Metra, and Pace transit options for getting around the Chicago area from Northwestern | https://www.northwestern.edu/offcampus/resources/getting-around/public-trainbus-transportation.html | docs/nu_oiss_transportation.pdf |
+| 11 | NU OISS: While on OPT | Official | Obligations, reporting requirements, and tips for maintaining F-1 status while working on OPT | https://www.northwestern.edu/international/international-students/student-employment/while-on-opt-stem-opt1/while-on-opt.html | docs/nu_oiss_while_on_opt.pdf |
 
 ---
 
