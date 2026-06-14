@@ -71,6 +71,8 @@ My goal was to simulate a very knowledgeable international friend, someone who h
 
 **Reasoning:** The OISS pages are short (4k–21k chars) and structured as headed sections with bullet-point lists — a 500-char window captures one complete policy statement or procedural step without pulling in unrelated content from adjacent sections. The Reddit threads are very long (640k–717k chars) and consist of standalone Q&A comments; 500 chars is enough to hold a full comment or reply. The 75-char overlap ensures that a sentence split across a chunk boundary can still be retrieved intact — e.g., a tax deadline that starts at the end of one chunk and finishes at the start of the next won't be lost. Chunks shorter than 50 chars are discarded as noise (whitespace artifacts, isolated headers).
 
+**Final chunk count:** 1,915 chunks across all 11 sources (11–51 per official page, 807–904 per Reddit file).
+
 ---
 
 ## Retrieval Approach

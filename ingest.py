@@ -41,6 +41,33 @@ def save_all_to_txt():
             print(f"  -> FAILED: {e}")
 
 
+def chunk_document(text, source_name):
+    """Split document text into overlapping character windows.
+
+    Returns a list of dicts: {text, source, chunk_id}
+    """
+    chunk_size = 500
+    overlap = 75
+    min_length = 50
+
+    chunks = []
+    counter = 0
+    start = 0
+
+    while start < len(text):
+        chunk_text = text[start:start + chunk_size].strip()
+        if len(chunk_text) >= min_length:
+            chunks.append({
+                "text": chunk_text,
+                "source": source_name,
+                "chunk_id": f"{source_name}_{counter}",
+            })
+            counter += 1
+        start += chunk_size - overlap
+
+    return chunks
+
+
 def read_document(source):
     """Read a source from its local .txt file."""
     txt_path = f"{DOCS_PATH}/{source['name']}.txt"
