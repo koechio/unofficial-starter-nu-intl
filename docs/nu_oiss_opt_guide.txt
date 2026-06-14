@@ -1,0 +1,157 @@
+F-1 Optional Practical Training (OPT)
+Optional Practical Training (OPT) is a 12-month work authorization available to F-1 international students who have been full-time students for at least one academic year and plan to seek employment in the United States in their fields of study. 
+ 
+ Looking for information about the 24-month STEM OPT Extension? Go to the STEM OPT Extension page.
+The Basics
+OPT is a benefit of a student’s F-1 status. Students generally apply for OPT in their last academic term.
+Eligibility
+To be eligible for OPT, you must...
+- be in F-1 status at the time of OPT application.
+- be a full-time student for at least one academic year. 
+- be completing your program of study at Northwestern University.
+- Not have used more than 1 year of full-time CPT during your current degree level.
+- OPT is available once per academic level.
+- If you applied for OPT at the same academic level previously, but did not use your full 12 months of OPT at that time, please contact your OISS advisor to discuss your options.
+ 
+Do I need a job offer before applying for OPT?
+No, a job offer is not required to apply for OPT. However, during the 12-month OPT period, you will be allowed only a cumulative total of 90 days of unemployment.  You must also report your employment in the SEVP Portal or the OISS Portal under the “alumni” tab. See Rules and Reporting Requirements while on OPT for more information.
+What visa status will I have while my OPT application is pending and while I am working on OPT?
+During your pending OPT application and after the OPT approval by USCIS, F-1 students will remain in F-1 status under the I-20 sponsorship of Northwestern University. OPT is a benefit of your F-1 status and extends your ability to remain in the United States for the purpose of seeking employment in your field of study. This means that you will continue to use your Northwestern University OPT I-20 and F-1 documents to travel and you will need to get travel signatures from OISS every 6 months. This also means that OISS is still responsible for reporting changes about your status to SEVIS and helping you maintain your F-1 status while you are on OPT.
+Do I need an SSN (Social Security Number) to work in the U.S.? 
+Yes, a Social Security Number (SSN) is required for any paid employment in the United States. You can apply for an SSN once you have recieved your EAD.  For more information about applying for your SSN please refer to our SSN resource page.
+Applying for OPT
+The OPT application process involves both OISS and United States Citizenship and Immigration Services (USCIS) and can take 3 – 5 months. OPT applications can be rather complex. The first step is to complete the required online OISS Optional Practical Training course (see instructions below). Once you are approved for OPT, you will receive an Employment Authorization Document (EAD Card) and I-797 Approval Notice from USCIS. These documents do not necessarily arrive on the same date. This webpage provides instruction related to the online application only.
+USCIS also offers a premium processing option for OPT and STEM OPT applications. Premium processing is an additional fee and the response processing timeframe on a complete application is 30 business days (Monday - Friday, excluding holidays). See USCIS Premium Processing for additional information.
+F-1 students may receive a notification to schedule a BSA at an Application Support Center (ASC) as part of the application process. Please see our guidance on January 28, 2026 for more information.
+OISS Optional Practical Training Course (online)
+OISS has launched an online OPT tutorial! Starting in January 2024, all students who submit an Optional Training Training (OPT) Recommendation request in the OISS Portal must submit a copy of their Certificate of Completion from the new online OISS OPT course. Students should complete the course BEFORE beginning their application for OPT and save the certificate. The course is a comprehensive guide to applying for OPT, eligibility, and reporting requirements.
+How do I access the online OISS OPT course?
+Click here: https://homebase.english3.com/api/v2/classes/join?code=NUOPT&institution=73
+- If you already have a Homebase account:
+- Click "Log in" and enter your username and password.
+ 
+- If you are a new user to Homebase, create your Homebase account.
+- If you can’t remember your password, click on “forgot password” and follow the instructions to reset your password.
+- After you log in:
+- Click on the "Home" tab on the top right
+- Begin the Optional Practical Training course.
+ 
+- If you have any issues accessing the course, please email: oiss-students@northwestern.edu. 
+ When to Apply
+- You can apply for OPT up to 90 days before and up to 60 days after the program end date on your Form I-20. If USCIS receives your application more than 90 days before your I-20 program end date or more than 60 days after your I-20 program end date, it will be rejected.
+ Refer to the chart below for upcoming dates:
+ Correct dates for OPT filing
+| Term | Program End Date | Apply for OPT 90 days before program end date
+ (Earliest date USCIS will receive application)
+ | Earliest OPT
+ Start Date
+ | Latest OPT Start Date (End date of grace period & last date USCIS will accept OPT application)
+ |  
+| Winter Quarter 2026 | 03/21/2026 | 12/21/2025 | 03/22/2026 | 05/20/2026 |  
+| Law Spring Semester 2026 | 05/07/2026 | 02/06/2026 | 05/08/2026 | 07/06/2026 |  
+| Spring Quarter 2026 | 06/12/2026 | 03/14/2026 | 06/13/2026 | 08/11/2026 |  
+| Kellogg School of Management Masters Students- Spring Quarter 2026 | 06/13/2026 | 03/15/2026 | 06/14/2026 | 08/12/2026 |  
+| Summer Quarter 2026 | 08/30/2026 | 06/01/2026 | 08/31/2026 | 10/29/2026 |  
+| Kellogg School of Management Masters Students- Summer Quarter 2026 | 09/05/2026 | 06/07/2026 | 09/06/2026 | 11/04/2026 |  
+ 
+- All OPT applicants must first obtain an OPT recommendation on a new I-20 (the OPT I-20). Before applying, submit your OPT Request at the OISS Portal. Students can submit their OPT Request in the OISS Portal up to 100 days before their I-20 program end date.
+- If USCIS receives your application more than 90 days before your I-20 program end date or more than 60 days after your I-20 program end date, your application will be denied. Due to this, OISS will not process your OPT Recommendation request until the 90 day deadline has been reached or passed.
+- The program end date on your I-20 matches your final term of enrollment (excluding some PhD students). If you finish your program earlier than your I-20 end date, the OISS will shorten your I-20 end date to the final date of the term you are applying for OPT based on your OPT Request.
+- USCIS must receive your full and complete OPT application no more than 60 days after your expected program completion date (end date on your I-20).
+- Your OPT application will be denied if it is received by USCIS more than 30 days after the recommendation for OPT is entered into SEVIS. In order to avoid a denial, we highly suggest that you submit your application to USCIS within 15 days.
+- If it is close to the 30 day timeline and you have not submitted your application to USCIS, do not send your I-765 to USCIS and instead request a new OPT I-20 through the OISS Portal by submitting the “Optional Practical Training (OPT): Past 30 Days OR Change Recommended Dates” request via the OISS Portal.
+How to Apply
+- Complete your "Optional Practical Training (OPT) Recommendation" request via the OISS Portal. The OPT Request requires two important components:  1) The Certificate of Completion of the online OISS OPT course (see instructions above) and 2) The recommendation for OPT that will need to be completed by your academic advisor, PI, or director of graduate studies.
+- You will need to provide the full name and email address of your academic advisor, PI or director of graduate studies providing your recommendation in the OPT request. OISS advisors are not your “recommender” in the OPT Request on the OISS Portal.
+- The OPT recommendation will be sent to your academic advisor, PI or director of graduate studies via email. The academic advisor certifies:
+- You have completed all your course requirements.
+- You are going to graduate in the term you have indicated on your OPT request. Please note, PhD students must be ABD before applying for OPT.
+- You are in good academic standing.
+ 
+- You should discuss this request with your academic advisor (not OISS advisor) before completing the request in the portal. We cannot process the OPT request until the electronic recommendation from your academic advisor has been received.
+ 
+- Your OISS Advisor will review your request for OPT. If you are eligible for OPT, you will be issued an updated I-20 with OPT Recommendation to submit with your OPT application. After the OISS receives your electronic recommendation, please allow 5 business days for the OISS to process your updated I-20 with your OPT Recommendation on page 2. 
+ 
+ See image from page 2 of example I-20 with OPT recommendation:
+ 
+- Prepare OPT Application Materials: While waiting for your new I-20 with your OPT Recommendation, prepare your OPT application documents and digital photos as outlined under Step 1 of the Online I-765 Application for OPT. 
+- Receive and sign your updated I-20 with OPT Recommendation: 
+You will receive an email notifying you when your updated I-20 with OPT recommendation has been processed and is ready for you to access via the OISS Portal. You will then be able to print your updated I-20 with OPT recommendation from your “Documents” section of the OISS Portal. You will need to sign in ink in the student attestation section of the document. This is the easiest and fastest way to receive your I-20. 
+- Review all your documents carefully before sending or submitting your OPT application: Check your major and degree level on page 1 of your I-20 and check your OPT recommendation on page 2 of your I-20. 
+- You are responsible for your OPT application and we recommend that you independently check dates, deadlines, addresses and the I-765 instructions We recommend you photocopy and/or save an electronic copy of your FULL application.
+ 
+- File your COMPLETE application with USCIS within 30 days of the date the OISS processed your OPT request. The OPT recommendation on the OPT I-20 is only valid for 30 days. OISS recommends you submit your complete OPT application within 15 days of the date your advisor recommends you for OPT on the I-20.
+IMPORTANT: 
+The application MUST be received by USCIS within 30 days of OISS recommending OPT in your SEVIS record and issuing your OPT I-20 or OPT will be denied. 
+If it has been more than 30 days since your OPT I-20 was issued and/or you would like to change your requested OPT start and end dates AND you have not filed your I-765 application with USCIS, please submit “OPT: Past 30 Days or Change Recommendation Dates” in the OISS Portal. After submitting this request, students are not permitted to file their I-765 application with USCIS as the OISS/Kellogg ISS will issue students a new OPT Recommendation.”
+Application Materials Checklist
+The online I-765 application is available ONLY for F-1 students applying for Post Completion OPT or the STEM Extension of OPT. The online I-765 cannot be used for any other type of employment authorization application. Be sure to check your application for any errors before submitting.
+See the following links for detailed instructions for filing the I-765 online application:
+Avoid Form I-765 Delays
+FAQs about the OPT Application Process
+What is the OPT filing fee?
+As of April 1, 2024, the Form I-765 application fees are $470 for online filing. Please check USCIS Filing Fees to verify the correct current fee amount. 
+Once you are ready to submit your form I-765 online, the system will automatically direct you to the secure Department of Treasury site, pay.gov, to pay your fees online. USCIS only uses pay.gov to process fees. Always check the website address before you pay. Beware of scam websites and scammers who may pretend to be a USCIS website.
+How do I choose my OPT start date?
+As part of the OPT I-20 request process, you must request an OPT start date. This is the day on which you would like to start working while on OPT. Some things to consider when choosing your requested OPT start date:
+- The requested start date must be within 60 days of your program end date on your I-20. It can be as early as the day after your end date and up to 60 days after that.
+- It is not guaranteed that you will be approved for the start date you request. Your approved start date will appear on your Employment Authorization Document, or EAD card and may be later than your requested start date. Please note that you may not begin working until your approved EAD start date, regardless of the requested date on your I-20.
+- Do you have travel plans? If you plan to travel, especially internationally, you may not want to select a start date during your planned travel time.
+- If you have a job offer, discuss with your employer an appropriate start date based on when you have applied for your OPT (consider the 3-to-5-month processing time).
+- If you don't have a job offer, you should consider where you are in your job search and when jobs typically start in your field and make your best estimate of when you'd like to begin working.
+- Days of unemployment only begin after the approved start date listed on your EAD.
+- Weigh the pros and cons of an early vs. late start date. If you choose an earlier start date, you may be able to begin your employment earlier, BUT if you don't find a job, you will begin accruing unemployment days sooner. If you choose a later start date, your unemployment days will begin accruing later, BUT you'll have to wait longer to begin employment.
+What if I forgot to submit my OPT application to USCIS within the 30-day deadline?
+If OISS recommended you for OPT more than 30 days ago and you have not yet submitted your application to USCIS, you'll need a new OPT I-20 from OISS.
+- If you are still within your 60-day grace period and otherwise eligible to apply for OPT, submit another OPT Request in the OISS portal. This request is titled the OPT: Past 30 Days or Change Recommendation Dates. 
+- Do not send in an application if more than 30 days have passed. Your application will be rejected.
+What if I applied for OPT, but did not complete my degree program as planned?
+Please contact your OISS Advisor as soon as possible to discuss your situation.
+While You Wait for Your OPT EAD Card
+To verify the current average OPT processing time with USCIS, check the I-765 USCIS processing times.
+What to expect after submitting your OPT application to USCIS
+Upon submission of your application: You will receive a confirmation that your Form I-765 was successfully submitted. Following the completion of your online filing, you should be able to review your I-765 receipt notice in your online myUSCIS account and track the status of the application.
+Within 4 - 6 weeks: You will receive an I-797c receipt notice at your mailing address confirming the date of receipt and your receipt number. Keep this notice safe as it is your official proof that your OPT application was submitted. If there are any errors in the receipt notice in your name, address, or application type, contact your OISS adviser right away.
+Around 3 – 5 months: You should receive an I-797 Notice of Approval letter and EAD card at your mailing address. These items may arrive separately or at the same time. Check your EAD card to make sure all information is correct. You can start working on your EAD start date! If there are any errors on the EAD, contact your OISS adviser right away.
+After Approval: Make an appointment with the Social Security Administration (SSA) if you do not already have a Social Security Number (SSN).  SSNs are no longer automatically issued with OPT approval. You must wait until you have your OPT EAD card and your OPT start date have arrived to apply in-person at an SSA office.
+Can I work on or off campus while waiting for my Employment Authorization Document (EAD)?
+While waiting for your EAD card to arrive…..
+- And until the program end date on your I-20, you can continue working ON CAMPUS. You may also continue to work on pre-approved CPT.
+- After your I-20 program end date, you cannot work anywhere until you have your physical EAD card in your possession; you may begin working on the first day listed in the “valid from” section of your EAD.
+Travel Outside the U.S. While OPT is Pending
+Travel during the OPT application process is allowed, but not recommended as it poses certain risks.
+Consider the following:
+- You should include a different mailing address than your own with an “in care of” person designated in your I-765 if you plan international travel while your OPT is pending. The mail systems in Chicago area apartment buildings can be challenging and it is not guaranteed you will receive mail when you are not there.
+- If you receive a Request for Evidence, you will need to respond by a certain deadline and all mail to USCIS must be sent from within the U.S.
+- If you are denied for OPT while outside the United States, you will not be able to re-enter the U.S to reapply. If you are within your 60-day grace period when your denial is received, your only option is to refile online.
+- If you are approved for OPT while outside the United States, you will need to arrange for your EAD card to be sent to you abroad to re-enter the United States. USCIS only sends EAD cards to U.S. addresses and your name or your “in care of” designee’s name must be on the mailbox.
+- If your F-1 visa is expired, you will need to reapply for an F-1 visa with your EAD card and I-20.
+- If you choose to travel while your application is pending, be sure that you are monitoring your mail.  
+Problems With Your OPT Application
+There are several types of problems that may occur during your OPT application:
+- Delayed processing
+- Not receiving your I-797c Receipt Notice
+- Request for Evidence or Denial
+- Incorrect EAD
+If there is any problem with your OPT application, contact your OISS Advisor right away so we can provide guidance on your situation. If you do not receive your EAD card because it is undeliverable or lost in the mail, refer to our Replacement EAD Card webpage.
+When your EAD arrives
+Upon receiving your 
+Employment Authorization Document (EAD), check the following:1.     Verify Personal Information
+- Ensure your name is spelled correctly and matches the name on your Form I-20.
+- Confirm the accuracy of your date of birth, country of birth, and sex.
+2.	Review Work Authorization Dates:
+- Check the start and end dates for which you are authorized to work.
+3.	Confirm the Correct Category:
+- For Post-Completion OPT, the category should be CO3B.
+- For STEM OPT Extension, the category should be CO3C.
+4.     If  your EAD card contains incorrect information due to a USCIS error:
+- You must return the original EAD card to USCIS to get it corrected. See Replacement EAD Card for instructions.
+- If you are not sure if the error was made by USCIS or if you have questions, please contact your OISS Advisor.
+While on OPT
+Consult the 
+While on OPT resource for important information related to rules and reporting requirements, practical matters, definitions of employment and unemployment, accessing and using the SEVP Portal, and much more.
+What do I need to understand while on OPT?
+The Student and Exchange Visitor Program (SEVP) requires schools to maintain certain information in SEVIS for all students currently on approved OPT (Optional Practical Training). As an F-1 student on OPT, you continue to be under Northwestern University's sponsorship. As such, OISS continues to maintain your SEVIS record so you will remain in valid visa status.
+Therefore, it is important that OPT students are familiar with and follow OPT reporting requirements.
+Disclaimer Statement
+The Northwestern University Office of International Student & Scholar Services (OISS) offers guidance on Optional Practical Training (OPT) and OPT STEM processes as a courtesy to NU students. We make every attempt to ensure that we provide you with the most up to date information available. However, any advice provided to you by our office does not constitute legal advice. You should always independently check all deadlines and all OPT and STEM OPT application documents for accuracy before mailing them or submitting them online to United States Citizenship and Immigration Services (USCIS). The OPT application is a personal application for which you are responsible. The application preparation and USCIS case decision will vary depending on the facts at issue in your particular case.  While OISS exercises best efforts to provide you with the most current guidance, please be aware that USCIS may change its interpretation of applicable policies, procedures, regulations, and eligibility requirements at any time.  OISS is not responsible for, and expressly disclaims liability for, any errors or omissions relating to your OPT application and any decisions made by USCIS.  For legal advice, students are encouraged to consult with a licensed and experienced immigration attorney at their own expense.

@@ -1,0 +1,55 @@
+How to apply for an SSN
+Who can apply for an SSN & required documentation
+| Visa/Employment Type | Eligible? | Required Documentation | 
+| Newly arrived F-1 or J-1 student who is not yet enrolled in classes and/or has not yet completed OISS check-in (Initial SEVIS Status) | Not yet eligible | Newly arrived students must complete OISS check-in and be registered in classes at NU before OISS can update your SEVIS status to Active. New students are in Initial SEVIS Status until after both registering for classes and completing OISS check-in. You can view your "SEVIS Status" on your student profile page in the OISS Portal at the top of the page. You must be in "Active" SEVIS status to be eligible to apply for a SSN. | 
+| F-1 on-campus employment (including graduate assistantships) | 
+ Not eligible after employment has ended. | 
+ | 
+| F-1 CPT | 
+ Not eligible after employment has ended. | 
+ | 
+| F-1 OPT | 
+ *SSNs are no longer automatically issued with OPT approval. You must wait until you have your OPT EAD and your OPT start date has arrived to apply in-person at an SSA office. | 
+ | 
+| F-1 no employment | Not eligible | |
+| F-2 | Not eligible | |
+| 
+ NOTE: J-1 students are eligible to apply for an SSN with or without an employment offer. See below instructions for J-1s with no employment offer. | 
+ | 
+ | 
+| 
+ | 
+ | 
+ | 
+| J-1 Academic Training (AT) | 
+ | 
+ | 
+| J-1 scholar | 
+ | 
+ | 
+| J-2 | Yes, if J-2 has an EAD.Not eligible after employment authorization has ended. | 
+ | 
+| H-1B & O-1 visa holders | Yes, on or after the start date on your Form I-797. | 
+ | 
+SSN Application Instructions
+STEP 1: Gather required documents
+- See table above based on your current status.
+- Students with on-campus employment need a job offer letter from the on-campus employer. See a sample
+- SSN Authorization Letter from OISS - This letter is required for F-1 students with on campus employment and J-1 students (degree seeking students sponsored by Northwestern). This letter can be requested via the SSN Letter Request in the OISS Portal.
+- J-1 students on Fulbright's visa sponsorship must contact their Fulbright advisor for the SSN authorization letter.
+- J-1 Short Term Scholars, J-1 Research Scholars, and J-1 Professors do not need SSN authorization letters.
+- J-1 Student Interns should contact OISS at oiss-students@northwestern.edu to request an SSN letter.
+STEP 2: Complete the Online Social Security Number Application on the SSA website
+Begin the process online to apply for a new or replacement Social Security card. After submitting the online application, ensure you print, annotate or take a screen shot of your confirmation number (O number). You must complete the application process by visiting your local Social Security Administration office with your confirmation number and required documentation within 45 calendar days.
+Online Social Security Number Application
+STEP 3: Go to the Social Security Administration (SSA) Office
+Once you have each of the documents ready and have submitted the online SSN application, you must go in person to your local SSA office with hard copy immigration documents to apply for the SSN. Be sure to take your confirmation number (O number) assigned during the online application. You may find office locations on the SSA website.
+The following SSA Offices are closest to the Evanston and Chicago campuses:
+ 
+ Evanston – 2116 Green Bay Rd., Evanston, IL 60201
+Chicago – 605 West Washington Boulevard, Chicago, IL 60661
+STEP 4: Wait for your Social Security card to arrive in the mail
+Once your application for an SSN has been approved by the SSA, the SSA will send a Social Security card to the address you provided on your application form. The usual processing time is 2 - 4 weeks. If additional security procedures are necessary, processing times may range from 4-8 weeks. The SSA will not issue a number in advance of the card being mailed.
+Most likely you will receive a Social Security card that has the notation: "Valid for work only with DHS Authorization." SSA issues this type of card to students and dependents in F-1, J-1, and J-2 immigration status because the card alone does not authorize employment.
+See example:
+After you receive your SSN, it’s best not to carry the card in your wallet. Instead, memorize the number, and keep the card in a safe place with your other important documents. Don’t lose your card!

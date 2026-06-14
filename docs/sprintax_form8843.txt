@@ -1,0 +1,95 @@
+There are 3 things that every U.S. international student and J-1 visa holder needs to know about American tax:
+- 
+- Every U.S. international student and J-1 visa holder has a tax filing requirement
+- It doesn’t matter if you have earned income. You must still file your documents before the deadline
+- The IRS takes this stuff seriously! In other words, if you don’t comply with your tax obligations, you may encounter complications when applying for U.S. visas in the future
+ 
+Regardless of whether you have earned income during your time in the U.S., if you are a nonresident in the U.S., you will still need to file what’s known as a Form 8843 “Statement for Exempt Individuals and Individuals With a Medical Condition”.
+This blog post will focus on exactly what you need to do in order to file this form and remain compliant with the IRS.
+NOTE: If you are considered a resident for tax purposes, you are not required to file IRS form 8843.
+Table of Contents
+- What is Form 8843?
+- Who must file a Form 8843?
+- How to fill out form 8843
+- How to file form 8843
+- What is the deadline for filing a Form 8843?
+- What happens if I don’t file Form 8843?
+- Can I file Form 8843 for a previous year?
+- Can I file Form 8843 online?
+- Do I need an SSN or ITIN to file form 8843?
+- Where do I send form 8843?
+- Do I have to file any other tax documents?
+- What’s the easiest way to file my tax documents?
+First things first.
+What is Form 8843?
+The first thing you should know about Form 8843 is that it’s not an income tax return.
+Instead, it is a statement you file for the U.S. Government if you are a certain type of nonresident alien for tax purposes (including spouses and dependents of certain nonresident aliens).
+Who must file a Form 8843?
+All nonresidents aliens who are in the U.S. on F-1, J-1, F-2 or J-2 visas are required to file a Form 8843. Even if you earned no U.S. income, you must still file this form.
+You must file a Form 8843 if:
+- You were present in the U.S. in the previous tax year;
+- You are a nonresident alien;
+- And you are in the U.S. under F-1, J-1, F-2 or J-2 status.
+Even if you don’t need to file an income tax return, you should file the Form 8843 if the above criteria apply.
+How to fill out form 8843
+There are a number of sections in this form. However, not all of them will be relevant to you. It depends on your personal circumstances.
+Part 1 of form 8843 – General Information
+In part 1 of your Form 8843 you will need to include the following information:
+- Your personal details (as they appear on your passport)
+- Your Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) – if you have one. You generally don’t need an SSN or ITIN to file a Form 8843 but if you have been assigned one, you must include it on Form 8843. The exception to this is for those who can be claimed as dependents on a U.S. tax return. These dependents must have either an SSN or ITIN.
+- Your U.S. visa type (F-1, J-1, etc)
+- Your current non-immigrant status – unless this has changed since you entered the U.S. In this case you should also enter the date your change of status was approved.
+- The number of days you were present in the U.S. in the last 3 years
+- The number of days you were present in the U.S. in the relevant tax year (enter this in the Substantial Presence Test box)
+Prepare your Form 8843 the easy way!
+Part 2 of form 8843 – Teachers and Trainees
+In part 2, teachers and trainees are required to include details of what academic institution or program you were involved in during the previous year.
+Part 3 of form 8843 – Students
+If you are an F-1 international student or J-1 visa holder (and dependent), in part 3 of form 8843 you should:
+- Include details of your academic institution or program
+- and answer the rest of the questions according to your personal circumstances
+Part 4 (Professional Athletes) and 5 (Individuals with a Medical Condition or Medical Problem)
+The majority of students in the U.S. on F or J non-immigrant status will not need to fill in parts 4 and 5.
+How to file form 8843
+Form 8843 is typically attached to your 1040-NR income tax return.
+If you’re filing form 1040-NR, you should mail form 8843 to the address shown in your tax return instructions.
+However, if you have no income and are only filing Form 8843, you should print Form 8843 and mail it to the Department of the
+Treasury, Internal Revenue Service Center, Austin, TX 73301-0215 by the due date (including extensions) for filing Form 1040-NR.
+You can use Sprintax Returns to generate your 8843 form.
+What is the deadline for filing a Form 8843?
+The 2026 deadline for filing Form 8843, along with any tax return that is due, is 15 April 2026.
+It is important to file before that date to avoid any potential fines and penalties.
+If you had no U.S. income and are only filing IRS Form 8843, the deadline is 15 June 2026.
+What happens if I don’t file Form 8843?
+In short, yes, there is potentially a penalty for not filing Form 8843.
+By not filing on time, you may not exclude the days you were present in the United States, which could result in you being considered a U.S. resident under the substantial presence test.
+That’s why it is important that you file correctly and on time during your stay in the U.S.
+Can I file Form 8843 for a previous year?
+Many nonresidents are unaware that they even have a tax-filing requirement for a Form 8843.
+With that in mind, the IRS allows nonresidents in the U.S. to file 8843 for previous years they have missed.
+To do this, you will simply need to attach a Form 8843 for each year you were present in the U.S. with your tax return.
+Can I file Form 8843 online?
+Another common area of confusion around tax time is how to submit Form 8843 online.
+Currently, there is no option to file Form 8843 online.
+The only way to submit Form 8843 is to complete it and mail it to your nearest IRS center.
+However, this may change in the coming years as the IRS looks to modernize their methods of accepting tax forms.
+Do I need an SSN or ITIN to file form 8843?
+In truth, no.
+You will not need a Social Security Number or Individual Tax Identification Number unless you have been assigned one.
+There are certain circumstances where you’ll need to include them – more on that below!
+Where do I send form 8843?
+If you had no income, you must mail form 8843 to:
+Department of the Treasury
+Internal Revenue Service Center
+Austin, TX 73301-0215
+You must mail each individual 8843 to the address above.
+If you have dependents, everyone must submit their own 8843 in a separate envelope. Do not include any other forms in your envelope.
+If you file a form 1040NR, attach form 8843 to it.
+Do I have to file any other tax documents?
+If you get a job in the U.S., you’ll need to fill out a W-4 Form so your employer knows what income should be withheld from your wages as taxes.
+Similarly, if you received a grant, scholarship or stipend, some of this may be classified as income and have tax implications. At the end of the tax year, you will need to prove that you’ve paid the correct amount by filing your tax return.
+If you earned income in the U.S. you must file a tax return – Form 1040-NR – as well as Form 8843.
+What’s the easiest way to file my tax documents?
+Sprintax will guide you through the tax filing process, firstly determining your tax residency status, and then identifying which forms you need to complete based on your own personal circumstances.
+Plus, if you have any questions, our Vita Qualified Live Chat team are on hand to help 24/7!
+File your U.S. nonresident tax return the easy way today with Sprintax – the nonresident alien tax return software!

@@ -1,0 +1,57 @@
+How to File U.S. Taxes
+Northwestern’s Office of International Student and Scholar Services (OISS) coordinates access to Sprintax, an online tax preparation service designed specifically for nonresident international students and scholars in the United States.
+Step 1: Attend a Sprintax Tax Webinar
+Before filing, we strongly encourage you to attend a Sprintax tax webinar, which explains U.S. tax obligations for international students and scholars and walks through the filing process.Step 2: Receive Your Sprintax Access Code
+OISS distributes Sprintax access codes by email to eligible F-1 and J-1 students and scholars by February 15.
+- The code waives the federal tax preparation fee
+- Please file as early as possible
+Step 3: Gather Required Documents
+Before logging into Sprintax, collect the following:
+Personal & Immigration Documents
+- Passport
+- U.S. entry and exit dates (current and all prior visits or accessed in the travel history portion of your I-94 record on the CBP website)
+- Form I-20 (F-1) or DS-2019 (J-1)
+- Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN), if applicable
+A SSN or ITIN is not required if you had no U.S. income and only need to file Form 8843. 
+If you need an ITIN, refer to the ITIN Eligibility resource
+Tax & Income Documents (if applicable) : For more information on which tax forms you may need for Sprintax to file your tax return, see the Foreign National Tax Team’s website
+- W-2 (employment wages)
+- 1042-S (stipends, scholarships, treaty benefits, certain services)
+- 1099 (interest, dividends, freelance or miscellaneous income)
+- Final pay slips (if helpful for reference)
+You may receive multiple forms, or none at all, depending on your circumstances. Do not file your taxes with Sprintax until you have received all of the required tax & income documents.
+Step 4: Log Into Sprintax Using Your OISS Code
+Sprintax is an easy to use tax preparation software designed for nonresident tax filers. It guides you through the tax process and determines which forms you must file.
+Go to Sprintax and:
+- Log in using an existing account from a previous year, or
+- Create a new account if this is your first time using Sprintax
+Enter your OISS Sprintax access code during checkout to apply to the federal filing waiver.
+Step 5: Determine Your Tax Residency Status
+After logging in, Sprintax will ask questions about the time you have spent in the U.S. and determine your residency for tax purposes using IRS Substantial Presence Test.
+General Guidelines of the Substantial Presence Test
+- F-1 and J-1 students are generally nonresidents for their first five calendar years in the U.S.
+- J-1 scholars and researchers are generally nonresidents for two calendar years (out of the past six), including any prior F-1 or J-1 time.
+Sprintax automatically applies these rules based on your responses.
+Step 6: File Based on Your Residency Status
+If You Are a Nonresident
+If Sprintax determines you are nonresident for tax purposes, you may continue using the software. Sprintax will help you:
+- Identify required tax forms
+- Determine eligibility for tax treaty benefits
+- Generate completed federal tax documents with filing instructions
+You will typically need to print, sign, and mail your federal tax return to the IRS. In some cases, you may be eligible to e-file, depending on IRS criteria.
+If You Are a Resident
+Sprintax cannot be used by resident tax filers. If Sprintax determines you are a resident, you should consider one of the following options:
+- File directly through the IRS website
+- Use resident tax software (e.g., TurboTax or H&R Block)
+- Hire a Certified Public Accountant (CPA) to assist with filing taxes
+Step 7: Complete State Tax Filing (If Required)
+Sprintax access codes do not cover state tax filing fees.
+If you have a state tax filing requirement, you have three options you may choose from to complete your filing requirements:
+- Pay Sprintax to prepare your state tax return for an additional fee
+- Hire a Certified Public Accountant
+- File your state taxes on your own 
+ 
+Need Help While Using Sprintax?
+OISS cannot assist you with questions you may have while using Sprintax. Sprintax provides direct support to users:
+- Email: hello@sprintax.com
+- 24/7 Live Chat (available after logging into your Sprintax account)

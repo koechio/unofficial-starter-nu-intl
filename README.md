@@ -38,10 +38,16 @@
 
 ---
 
+## Document Ingestion
+
+All sources are fetched once and saved as `.txt` files in `docs/`. The Reddit community threads (`reddit_f1_visa_tax.txt`, `reddit_f1_visa_ssn.txt`) were saved manually in advance. All other sources (Northwestern OISS pages, Sprintax blog, Wise blog) are fetched using `trafilatura`, which downloads the HTML and strips boilerplate to return clean body text. Running `python ingest.py` re-fetches and overwrites the web sources; Reddit files are skipped automatically.
+
+**Why trafilatura instead of PDFs:** The original plan was to download PDFs from Northwestern's site and parse them with `pdfplumber`. This failed because browser-printed PDFs embed content as rendered image layers rather than selectable text objects — `pdfplumber` returned empty strings for every page. Fetching the live HTML directly avoids this entirely: the underlying pages have clean, structured text.
+
 ## Chunking Strategy
 
 <!-- Describe your chunking approach with enough specificity that someone else could reproduce it.
-     Include:Official
+     Include:
      - Chunk size (characters or tokens) and why that size fits your documents
      - Overlap size and why (or why not) you used overlap
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
@@ -136,6 +142,8 @@
 **One way the spec helped you during implementation:**
 
 **One way your implementation diverged from the spec, and why:**
+
+The original ingestion plan used `pdfplumber` to extract text from PDFs. However, `pdfplumber` failed silently on PDFs that were saved by printing websites to PDF from a browser — it returned empty text for most pages because browser-printed PDFs embed content as rendered layers rather than selectable text objects. I switched to PyMuPDF (`fitz`), which handles browser-printed PDFs reliably by using a lower-level text extraction method. The interface is nearly identical (`page.get_text()` vs `page.extract_text()`), so no other part of the pipeline changed.
 
 ---
 

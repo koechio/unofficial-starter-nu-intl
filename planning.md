@@ -39,6 +39,32 @@ c
 
 ---
 
+## Document Ingestion
+
+**Approach:** All sources are fetched once and saved as `.txt` files in `docs/`. The Reddit files (`reddit_f1_visa_tax.txt`, `reddit_f1_visa_ssn.txt`) were saved manually in advance. All other sources are fetched via `trafilatura`, which downloads the page and strips HTML/boilerplate to return clean body text.
+
+**Why trafilatura:** The original plan was to download PDFs and extract text with `pdfplumber`. This failed because Northwestern's pages were printed to PDF from a browser, which embeds content as rendered image layers rather than selectable text — `pdfplumber` returned empty strings for every page. Switching to live web scraping with `trafilatura` solved this cleanly: the underlying HTML has structured, selectable text.
+
+**How to re-fetch:** Delete the `.txt` files and re-run `python ingest.py`. The script skips pre-saved Reddit files automatically.
+
+**Fetched sources and sizes:**
+
+| Source | Chars |
+|--------|-------|
+| nu_oiss_ssn_guide | 4,392 |
+| nu_oiss_tax_resources | 4,318 |
+| nu_oiss_cpt_guide | 8,027 |
+| nu_oiss_opt_guide | 21,343 |
+| nu_oiss_tax_faq | 6,168 |
+| sprintax_form8843 | 7,650 |
+| wise_bank_account_guide | 9,516 |
+| reddit_f1_visa_tax | 717,963 (pre-saved) |
+| reddit_f1_visa_ssn | 640,377 (pre-saved) |
+| nu_oiss_transportation | 1,838 |
+| nu_oiss_while_on_opt | 21,318 |
+
+---
+
 ## Chunking Strategy
 
 <!-- How will you split documents into chunks?
