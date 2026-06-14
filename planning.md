@@ -12,9 +12,7 @@ The domain I chose is practical life navigation for international students at No
 
 Accessing this knowledge is frustrating in practice: it takes multiple Google searches just to land on the right page, and once you're there, the answer to your specific question is buried several paragraphs down. The information is also scattered across the OISS website, IRS publications, Sprintax guides, and community forums. Having to do all this just for a simple question is really annoying
 
-My goal was to simulate a very knowledgeable international friend, someone who has already been through the process and can give you a direct answer to your specific question, explain how different pieces connect, and point you to the right official resource if you need more
-detail.
-c
+My goal was to simulate a very knowledgeable international friend, someone who has already been through the process and can give you a direct answer to your specific question, explain how different pieces connect, and point you to the right official resource if you need more detail.
 
 ---
 
@@ -67,16 +65,11 @@ c
 
 ## Chunking Strategy
 
-<!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+**Chunk size:** 500 characters
 
-**Chunk size:**
+**Overlap:** 75 characters
 
-**Overlap:**
-
-**Reasoning:**
+**Reasoning:** The OISS pages are short (4k–21k chars) and structured as headed sections with bullet-point lists — a 500-char window captures one complete policy statement or procedural step without pulling in unrelated content from adjacent sections. The Reddit threads are very long (640k–717k chars) and consist of standalone Q&A comments; 500 chars is enough to hold a full comment or reply. The 75-char overlap ensures that a sentence split across a chunk boundary can still be retrieved intact — e.g., a tax deadline that starts at the end of one chunk and finishes at the start of the next won't be lost. Chunks shorter than 50 chars are discarded as noise (whitespace artifacts, isolated headers).
 
 ---
 
@@ -88,11 +81,11 @@ c
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** `all-MiniLM-L6-v2` via `sentence-transformers` (runs locally, no API key required)
 
-**Top-k:**
+**Top-k:** 3 chunks per query
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** `all-MiniLM-L6-v2` maps text to 384-dimensional vectors and runs locally with no cost or latency from network calls — good for a class project. In a real deployment serving international students, the tradeoffs I would weigh are: (1) **multilingual support** — students may phrase questions mixing English with their native language; a multilingual model like `paraphrase-multilingual-MiniLM-L12-v2` would handle this; (2) **domain accuracy** — immigration and tax language is jargon-heavy; a larger model like OpenAI's `text-embedding-3-large` or a fine-tuned legal/government model would retrieve more precisely; (3) **context length** — Reddit comments can be long; `all-MiniLM-L6-v2` has a 256-token cap and silently truncates, so a model with a longer context window (e.g., `text-embedding-3-large` at 8191 tokens) would encode full comments rather than cut them off; (4) **latency** — a local model has zero network latency but is slower on CPU; an API-hosted model adds a round-trip but offloads compute.
 
 ---
 
@@ -105,11 +98,11 @@ c
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Which documents do I need to gather before I start filing my taxes as an international student on an F-1 visa? | Passport, I-94 travel history, Form I-20, SSN or ITIN (if applicable). Income documents: W-2, 1042-S, 1099. An SSN/ITIN is not required if you only need to file Form 8843 (no U.S. income). |
+| 2 | Do I need to pay for Sprintax as an F-1 student at Northwestern? | No. Northwestern OISS provides Sprintax access codes to international students at no cost. |
+| 3 | Is it required to have an SSN before filing taxes? | No. If you have U.S. income but no SSN, you can apply for an ITIN instead. If you had no U.S. income, you only need to file Form 8843 and no SSN or ITIN is required at all. |
+| 4 | What is the difference between CPT and OPT? | CPT (Curricular Practical Training) is temporary off-campus work authorization tied to the curriculum — required for any paid or unpaid off-campus work during the degree program. OPT (Optional Practical Training) is a 12-month post-completion work authorization for F-1 students who have been enrolled full-time for at least one academic year and want to work in their field of study after graduation. STEM graduates can extend OPT by 24 months. |
+| 5 | Can I open a US bank account as an international student without an SSN? | Yes. Banks like Chase allow non-residents to open an account using a passport, visa, I-20, and proof of address. An SSN is not required at account opening, though some banks ask for it later once obtained. |
 
 ---
 
@@ -119,19 +112,48 @@ c
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. **Chunk boundary splits critical lists.** The tax document checklist (passport, I-20, W-2, 1042-S, etc.) is a bullet-point list that spans several hundred characters. A 500-char window could cut the list in half, returning only some of the required documents. A student who asks "what do I need for taxes?" might get a partial answer. Mitigation: the 75-char overlap helps bridge splits, and top-k=3 retrieves multiple chunks so the full list is more likely to be covered across them.
 
-2.
+2. **Reddit noise drowning out authoritative answers.** The Reddit `.txt` files are 640k–717k chars of mixed-quality community content — speculation, outdated advice, and off-topic tangents mixed with useful first-hand accounts. Because there is so much Reddit text, retrieval may favor a vague Reddit comment over a precise OISS answer simply because it matches more surface-level keywords. Mitigation: the grounded system prompt instructs the model to use only the retrieved context and cite the source, so low-quality Reddit chunks will produce visibly weak answers that can be caught during evaluation.
 
 ---
 
 ## Architecture
 
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
+```
+docs/*.txt  (pre-saved via trafilatura + manual Reddit export)
+      │
+      ▼
+[1] INGEST — ingest.py
+    read_all_documents() reads each .txt file into {name, text}
+      │
+      ▼
+[2] CHUNK — ingest.py
+    chunk_document() — character sliding window
+    chunk_size=500, overlap=75, min_length=50
+    output: [{text, source, chunk_id}, ...]
+      │
+      ▼
+[3] EMBED + STORE — retriever.py
+    sentence-transformers: all-MiniLM-L6-v2 (local, 384-dim)
+    ChromaDB persistent collection (cosine similarity)
+    runs once at startup; skipped if collection already populated
+      │
+      ▼
+[4] RETRIEVE — retriever.py
+    retrieve(query) → semantic search → top-3 chunks
+    returns [{text, source, distance}, ...]
+      │
+      ▼
+[5] GENERATE — generator.py
+    Groq API — llama-3.3-70b-versatile
+    system prompt: grounded to <context> block, cite source per claim
+    temperature=0.0 for deterministic factual output
+      │
+      ▼
+[6] UI — app.py
+    Gradio ChatInterface — chat history, example questions
+```
 
 ---
 
@@ -148,7 +170,19 @@ c
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+- Tool: Claude (Claude Code in the terminal)
+- Input: the Chunking Strategy section of this file (chunk_size=500, overlap=75, min_length=50) and the `read_all_documents()` return format
+- Expected output: `chunk_document(text, source_name)` function in `ingest.py` that returns a list of `{text, source, chunk_id}` dicts
+- Verification: print total chunk count and spot-check 3–5 chunks from `nu_oiss_ssn_guide` to confirm they contain complete sentences and the correct source name
 
 **Milestone 4 — Embedding and retrieval:**
+- Tool: Claude (Claude Code in the terminal)
+- Input: the Retrieval Approach section of this file, the chunk dict format from Milestone 3, and the `retriever.py` pattern from the rulesbot-starter reference project
+- Expected output: `embed_and_store(chunks)` and `retrieve(query)` in `retriever.py`, using ChromaDB with `all-MiniLM-L6-v2`
+- Verification: query "what documents do I need for taxes?" and confirm the top-3 returned chunks come from tax-related sources (`nu_oiss_tax_resources`, `nu_oiss_tax_faq`, `sprintax_form8843`)
 
 **Milestone 5 — Generation and interface:**
+- Tool: Claude (Claude Code in the terminal)
+- Input: the Architecture section of this file, the `generate_response()` and `app.py` pattern from rulesbot-starter, and the 5 evaluation questions
+- Expected output: `generate_response(query, chunks)` in `generator.py` with a grounded system prompt and source citations; `app.py` with a Gradio ChatInterface adapted for this domain
+- Verification: run all 5 evaluation questions through the live app and compare responses against expected answers in the Evaluation Plan
